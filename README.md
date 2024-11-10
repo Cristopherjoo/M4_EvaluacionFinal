@@ -20,9 +20,3 @@ La aplicación facilita el control académico y la visualización de resultados.
 - **Cálculo de Promedios**: Calcula el promedio de cada materia y del total de notas de cada alumno, facilitando el monitoreo del desempeño académico.
 
 - **Exportar Datos**: Guarda en un archivo `.txt` el promedio de notas de cada alumno, con un formato claro y legible para fácil consulta y archivo.
-
-## Instalación y Configuración
-
-1. **Clonar el repositorio**:
-   ```bash
-   https://github.com/Cristopherjoo/M4_EvaluacionFinal/new/nueva_rama02
