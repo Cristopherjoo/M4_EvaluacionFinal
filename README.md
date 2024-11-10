@@ -2,9 +2,7 @@
 
 ## Descripción
 
-Esta aplicación permite al **Colegio Latinoamericano** gestionar las notas de los estudiantes de 1ro medio. 
-Incluye funcionalidades para la gestión de alumnos, asignación de materias, cálculo de promedios y exportación de datos a un archivo.
-La aplicación facilita el control académico y la visualización de resultados.
+Esta aplicación permite al **Colegio Latinoamericano** gestionar las notas de los estudiantes de 1ro medio.  
 
 ## Características del Proyecto
 
@@ -15,8 +13,23 @@ La aplicación facilita el control académico y la visualización de resultados.
   - **Agregar notas**: Registrar las notas de los alumnos en sus respectivas materias.
   - **Exportar datos a archivo**: Genera un archivo `.txt` con el promedio de notas de cada alumno.
 
-- **Agregar Datos**: Facilita la creación de nuevos alumnos y materias, su asignación a los alumnos, y el registro de notas en cada materia.
+## Ramas disponibles
 
-- **Cálculo de Promedios**: Calcula el promedio de cada materia y del total de notas de cada alumno, facilitando el monitoreo del desempeño académico.
+### Rama `nueva_rama02`
+Si deseas revisar los últimos cambios realizados, por favor, dirígete a la rama `nueva_rama02`, donde hemos implementado las últimas características y mejoras.
 
-- **Exportar Datos**: Guarda en un archivo `.txt` el promedio de notas de cada alumno, con un formato claro y legible para fácil consulta y archivo.
+Para ver esta rama en GitHub, puedes utilizar el siguiente enlace:
+
+[nueva_rama02 en GitHub](https://github.com/Cristopherjoo/M4_EvaluacionFinal/tree/nueva_rama02)
+
+### Instrucciones para clonar y cambiar a la rama `nueva_rama02`
+
+Si deseas clonar el repositorio y revisar la rama localmente, sigue estos pasos:
+
+1. **Clona el repositorio**:
+
+   ```bash
+   git clone https://github.com/Cristopherjoo/M4_EvaluacionFinal.git
+
+
+
