@@ -7,9 +7,10 @@ import com.cristopher.modelos.Materia;
 import com.cristopher.excepciones.AlumnoNoEncontrado;
 import com.cristopher.excepciones.MateriaNoEncontrada;
 import com.cristopher.modelos.MateriaEnum;
-import java.util.List;
+import java.util.ArrayList;
 
 public class MenuController {
+
     private AlumnoServicio alumnoServicio;
     private MateriaServicio materiaServicio;
 
@@ -24,7 +25,8 @@ public class MenuController {
     }
 
     public void agregarMateria(String nombre, int creditos) {
-        Materia materia = new Materia(MateriaEnum.valueOf(nombre.toUpperCase()), List.of(5.0, 6.0, 7.0));
+        Materia materia = new Materia(MateriaEnum.valueOf(nombre.toUpperCase()), new ArrayList<>());  // Lista vacía
+
         materiaServicio.agregarMateria(materia);
     }
 

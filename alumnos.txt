@@ -1,1 +1,0 @@
-Alumno -> Rut: 123, Nombre: asd, Apellido: gfgf, Dirección: asd

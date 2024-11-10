@@ -15,14 +15,16 @@ public abstract class MenuTemplate {
     public void iniciarMenu() {
         int opcion = 0;
         do {
-            System.out.println("----- Menú -----\n");
+            System.out.println("******* Menú *******");
             System.out.println("1. Crear Alumno");
             System.out.println("2. Agregar Materia");
             System.out.println("3. Agregar Nota");
             System.out.println("4. Listar Alumnos");
             System.out.println("5. Exportar Datos");
-            System.out.println("6. Terminar Programa\n");
-            System.out.print("Selecciona una opción: ");
+            System.out.println("6. Terminar Programa");
+            System.out.println("********************");
+            System.out.print("\nSelecciona una opción:\n");
+            
             opcion = scanner.nextInt();
 
             switch (opcion) {
@@ -45,7 +47,7 @@ public abstract class MenuTemplate {
                     terminarPrograma();
                     break;
                 default:
-                    System.out.println("Opción inválida, por favor ingrese una opción válida.");
+                    System.out.println("Opción inválida\n");
             }
         } while (opcion != 6);
     }

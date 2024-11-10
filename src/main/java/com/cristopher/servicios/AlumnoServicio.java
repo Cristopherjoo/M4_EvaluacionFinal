@@ -8,10 +8,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AlumnoServicio implements IAlumno {
+
     private List<Alumno> alumnos;
 
     public AlumnoServicio() {
         alumnos = new ArrayList<>();
+    }
+
+    public List<Alumno> getAlumnos() {
+        return alumnos;
     }
 
     @Override
@@ -33,5 +38,5 @@ public class AlumnoServicio implements IAlumno {
     public List<Alumno> listarAlumnos() {
         return alumnos;
     }
-   
+
 }

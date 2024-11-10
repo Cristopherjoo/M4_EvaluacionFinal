@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MateriaServicio implements IMateria {
+
     private List<Materia> materias;
 
     public MateriaServicio() {
@@ -34,9 +35,8 @@ public class MateriaServicio implements IMateria {
         return materias;
     }
 
-    
     public void agregarNota(String nombreMateria, Double nota) throws MateriaNoEncontrada {
-        Materia materia = buscarMateria(nombreMateria);  
-        materia.agregarNota(nota);  
+        Materia materia = buscarMateria(nombreMateria);
+        materia.agregarNota(nota);
     }
 }
